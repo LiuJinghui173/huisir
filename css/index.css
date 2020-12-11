@@ -1,0 +1,276 @@
+.main {
+    width: 980px;
+    height: 455px;
+    margin-left: 220px;
+    margin-top: 10px;
+}
+
+.focus {
+    float: left;
+    width: 721px;
+    height: 455px;
+}
+
+.newsflash {
+    float: right;
+    height: 455px;
+    width: 250px;
+}
+
+.news {
+    height: 165px;
+    border: 1px solid #e4e4e4;
+}
+
+.lifeservice {
+    height: 209px;
+}
+
+.bargain {
+    margin-top: 5px;
+}
+
+.news_hd {
+    height: 33px;
+    border-bottom: 1px dotted #e4e4e4;
+    line-height: 33px;
+    padding: 0 15px;
+}
+
+.news_hd h5 {
+    float: left;
+    font-size: 14px;
+    color: #333;
+}
+
+.news_hd .more {
+    float: right;
+}
+
+.more::after {
+    font-family: 'icomoon';
+    content: "\e90b";
+}
+
+.news_bd {
+    padding: 5px 0 5px 15px;
+}
+
+.news_bd ul li {
+    height: 24px;
+    line-height: 24px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.lifeservice {
+    border: 1px solid #e4e4e4;
+    border-top: 0;
+}
+
+.lifeservice ul {
+    width: 250px;
+    height: 211px;
+}
+
+.lifeservice ul li {
+    float: left;
+    width: 25%;
+    height: 33%;
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    text-align: center;
+}
+
+.lifeservice ul li:nth-child(4n) {
+    border-right: 0;
+}
+
+.lifeservice ul li i {
+    display: inline-block;
+    width: 24px;
+    height: 28px;
+    margin-top: 12px;
+    margin-bottom: 3px;
+    background: url(../images/icons.png) no-repeat -18px -16px;
+}
+
+.lifeservice ul li:nth-child(2) {
+    position: relative;
+}
+
+.lifeservice ul li:nth-child(2) i {
+    background: url(../images/icons.png) no-repeat -79px -16px;
+}
+
+.lifeservice ul li:nth-child(3) i {
+    background: url(../images/icons.png) no-repeat -141px -16px;
+}
+
+.lifeservice ul li:nth-child(4) i {
+    background: url(../images/icons.png) no-repeat -205px -16px;
+}
+
+.lifeservice ul li:nth-child(5) i {
+    background: url(../images/icons.png) no-repeat -18px -87px;
+}
+
+.lifeservice ul li:nth-child(6) i {
+    background: url(../images/icons.png) no-repeat -77px -87px;
+}
+
+.lifeservice ul li:nth-child(7) i {
+    background: url(../images/icons.png) no-repeat -141px -87px;
+}
+
+.lifeservice ul li:nth-child(8) i {
+    background: url(../images/icons.png) no-repeat -205px -87px;
+}
+
+.lifeservice ul li:nth-child(9) i {
+    background: url(../images/icons.png) no-repeat -18px -159px;
+}
+
+.lifeservice ul li:nth-child(10) i {
+    background: url(../images/icons.png) no-repeat -79px -159px;
+}
+
+.lifeservice ul li:nth-child(11) i {
+    background: url(../images/icons.png) no-repeat -141px -159px;
+}
+
+.lifeservice ul li:nth-child(12) i {
+    background: url(../images/icons.png) no-repeat -205px -159px;
+}
+
+.jian {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+
+/* 推荐 start */
+
+.recom {
+    height: 163px;
+    margin-top: 12px;
+    background-color: #ebebeb;
+}
+
+.recom_hd {
+    float: left;
+    width: 206px;
+    height: 163px;
+    background: url(../images/recom.png);
+}
+
+.recom_bd {
+    float: left;
+    background-color: #ebebeb;
+}
+
+.recom_bd ul li {
+    position: relative;
+    float: left;
+}
+
+.recom_bd ul li img {
+    width: 248px;
+    height: 163px;
+}
+
+.recom_bd ul li:nth-child(-n+3)::after {
+    content: "";
+    position: absolute;
+    top: 10px;
+    right: 0;
+    width: 1px;
+    height: 145px;
+    background-color: #dddddd;
+}
+
+
+/* 家用电器 start  */
+
+.home_hd {
+    height: 30px;
+    border-bottom: 2px solid #c81623;
+}
+
+.home_hd h3 {
+    float: left;
+    font-size: 18px;
+    color: #c81623;
+    font-weight: 400;
+}
+
+.tab_list ul {
+    float: right;
+    line-height: 30px;
+}
+
+.tab_list ul li {
+    float: left;
+}
+
+.tab_list ul li a {
+    padding: 0 15px;
+}
+
+.floor .w {
+    margin-top: 25px;
+}
+
+.home_bd {
+    height: 361px;
+}
+
+.tab_list_item>div {
+    float: left;
+    height: 361px;
+}
+
+.col_210 {
+    width: 210px;
+    background-color: #f9f9f9;
+}
+
+.col_329 {
+    width: 329px;
+}
+
+.col_221 {
+    width: 221px;
+    border-right: 1px solid #ccc;
+}
+
+.col_219 {
+    width: 219px;
+    border-right: 1px solid #ccc;
+}
+
+.col_210 ul li {
+    float: left;
+    width: 85px;
+    height: 33px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    line-height: 34px;
+    margin-right: 10px;
+}
+
+.col_210 ul {
+    margin-left: 15px;
+}
+
+.col_210 a img {
+    margin-top: 27px;
+    margin-left: 27px;
+}
+
+.bb {
+    display: block;
+    border-bottom: 1px solid #ccc;
+}

@@ -1,0 +1,141 @@
+.w {
+    width: 1200px;
+    margin: auto;
+}
+
+header {
+    height: 84px;
+    border-bottom: 2px solid #c81523;
+}
+
+.logo {
+    padding-top: 18px;
+}
+
+.registerarea {
+    height: 522px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+}
+
+.registerarea h3 {
+    height: 42px;
+    padding: 0 21px;
+    border-bottom: 1px solid #ccc;
+    background-color: #ececec;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 42px;
+}
+
+.registerarea h3 div {
+    float: right;
+    font-size: 14px;
+}
+
+.style_red {
+    color: #c81623;
+}
+
+.reg_form {
+    width: 600px;
+    margin: 50px auto 0;
+}
+
+.reg_form ul li {
+    margin-top: 20px;
+}
+
+.reg_form ul li label {
+    display: inline-block;
+    width: 88px;
+    text-align: right;
+    font-size: 14px;
+}
+
+.reg_form ul li .inp {
+    width: 242px;
+    height: 37px;
+    border: 1px solid #ccc;
+}
+
+.error {
+    color: #df3033;
+}
+
+.error_icon,
+.success_icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url(../images/error_icon.png) no-repeat;
+    vertical-align: middle;
+    margin: 0 4px 3px 10px;
+}
+
+.success {
+    color: green;
+}
+
+.success_icon {
+    background: url(../images/success_icon.png) no-repeat;
+}
+
+.reg_form ul .safe {
+    margin-left: 165px;
+    margin-top: 9px;
+    color: #b2b2b2;
+}
+
+.safe em {
+    padding: 0 12px;
+    color: #fff;
+}
+
+.weak {
+    background-color: #de1111;
+}
+
+.middle {
+    background-color: #40b83f;
+}
+
+.strong {
+    background-color: #f79100;
+}
+
+.agree input {
+    vertical-align: middle;
+    margin: 0 5px 0 93px;
+}
+
+.agree a {
+    color: #1ba1e6;
+}
+
+.btn {
+    width: 200px;
+    height: 34px;
+    background-color: #c81623;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 700;
+    margin: 10px 0 0 111px;
+}
+
+.mod_copyright {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.links {
+    margin-bottom: 15px;
+}
+
+.copyright {
+    line-height: 20px;
+}
+
+.links a {
+    margin: 0 5px;
+}

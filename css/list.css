@@ -1,0 +1,65 @@
+.nav {
+    overflow: hidden;
+}
+
+.sk {
+    position: absolute;
+    top: 40px;
+    left: 190px;
+    border-left: 1px solid #b1191a;
+    padding: 3px 0 3px 14px;
+}
+
+.sk_list {
+    float: left;
+}
+
+.sk_list ul li {
+    float: left;
+}
+
+.sk_list ul li a {
+    display: block;
+    padding: 0 30px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 47px;
+    color: #000000;
+}
+
+.sk_con {
+    float: right;
+    margin-right: 35px;
+}
+
+.sk_con ul li {
+    float: left;
+    padding: 0 23px;
+    font-size: 14px;
+    line-height: 49px;
+}
+
+.sk_con ul li:last-child a::after {
+    font-family: 'icomoon';
+    content: "\e909";
+}
+
+.container_bd ul li {
+    float: left;
+    margin-right: 13px;
+    width: 286px;
+    height: 460px;
+    border: 1px solid transparent;
+}
+
+.container_bd ul li:hover {
+    border: 1px solid #b1191a;
+}
+
+.container_bd ul li:nth-child(4n) {
+    margin-right: 0;
+}
+
+.footer {
+    margin-top: 280px;
+}
